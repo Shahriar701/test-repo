@@ -11,5 +11,4 @@ add_executable(node_template_cpp
     src/main.cpp
 )
 target_include_directories(node_template_cpp PRIVATE src)
-neuraverse_link_openssl_first(node_template_cpp)
 target_link_libraries(node_template_cpp PRIVATE neuraverse_node_sdk)
